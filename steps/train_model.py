@@ -14,8 +14,8 @@ def train_model(x_train: pd.DataFrame, x_test: pd.DataFrame, y_train: pd.DataFra
         Training model steps
         Args:
             x_train: pd.DataFrame : Training data
-            x_test: pd.DataFrame : Testing data
-            y_train: pd.DataFrame : Training labels
+            x_test: pd.DataFrame : Training labels
+            y_train: pd.DataFrame : Testing data
             y_test: pd.DataFrame : Testing labels
         Returns: Trained model
     """
